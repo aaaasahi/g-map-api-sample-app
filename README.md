@@ -1,1 +1,4 @@
-# グーグルMap APIを使った住所検索アプリ
+# Google Map API 住所検索アプリ
+
+- gem 'geocoder'
+- gem 'dotenv-rails'
