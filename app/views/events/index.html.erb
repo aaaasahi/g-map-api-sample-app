@@ -1,0 +1,7 @@
+<h1>index</h1>
+<p><%= link_to '投稿', new_event_path %></p>
+<% @events.each do |event| %>
+  <%= event.address %>
+  <%= link_to '詳細', event_path(event) %>
+<% end %>
+
